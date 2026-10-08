@@ -1,0 +1,86 @@
+-- Add each definition as a separate measure in Power BI Desktop.
+-- Review-only examples: no DAX engine was executed in this environment.
+-- Use CASE_STUDY.md relationships and DimDate as the marked date table.
+Attempt Count = COUNTROWS(FactAttempt)
+
+Successful Attempts =
+CALCULATE([Attempt Count], KEEPFILTERS(FactAttempt[Status] = "Succeeded"))
+
+Failed Attempts =
+CALCULATE([Attempt Count], KEEPFILTERS(FactAttempt[Status] = "Failed"))
+
+Success Rate = DIVIDE([Successful Attempts], [Attempt Count])
+
+Failure Rate = DIVIDE([Failed Attempts], [Attempt Count])
+
+Successful Amount INR =
+CALCULATE(SUM(FactAttempt[AmountINR]), KEEPFILTERS(FactAttempt[Status] = "Succeeded"))
+
+Logical Payment Count = DISTINCTCOUNT(FactAttempt[PaymentID])
+
+Successful Logical Payments =
+CALCULATE([Logical Payment Count], KEEPFILTERS(FactAttempt[Status] = "Succeeded"))
+
+Logical Payment Success Rate = DIVIDE([Successful Logical Payments], [Logical Payment Count])
+
+Fee Revenue INR =
+SUMX(
+    FILTER(FactAttempt, FactAttempt[Status] = "Succeeded"),
+    FactAttempt[AmountINR] * FactAttempt[FeeRate]
+)
+
+Settlement Count = COUNTROWS(FactSettlement)
+
+Settled Amount INR = SUM(FactSettlement[AmountINR])
+
+Late Settlements =
+COUNTROWS(
+    FILTER(FactSettlement,
+        NOT ISBLANK(FactSettlement[SettlementDate])
+        && FactSettlement[SettlementDate] > FactSettlement[DueDate])
+)
+
+Late Settlement Rate = DIVIDE([Late Settlements], [Settlement Count])
+
+Late Settled Amount INR =
+SUMX(
+    FILTER(FactSettlement, FactSettlement[SettlementDate] > FactSettlement[DueDate]),
+    FactSettlement[AmountINR]
+)
+
+Mean Settlement Days =
+AVERAGEX(FactSettlement,
+    DATEDIFF(FactSettlement[SuccessfulAttemptDate], FactSettlement[SettlementDate], DAY))
+
+Settled Amount by Due Date =
+CALCULATE([Settled Amount INR], USERELATIONSHIP(DimDate[Date], FactSettlement[DueDate]))
+
+Country Share of All =
+DIVIDE([Successful Amount INR],
+    CALCULATE([Successful Amount INR], REMOVEFILTERS(DimCountry)))
+
+Country Share of Selected =
+DIVIDE([Successful Amount INR],
+    CALCULATE([Successful Amount INR], ALLSELECTED(DimCountry[Country])))
+
+Successful Amount YTD = TOTALYTD([Successful Amount INR], DimDate[Date])
+
+Successful Amount PY YTD =
+CALCULATE([Successful Amount YTD], SAMEPERIODLASTYEAR(DimDate[Date]))
+
+Successful Amount YoY Growth =
+VAR CurrentAmount = [Successful Amount INR]
+VAR PriorAmount = CALCULATE([Successful Amount INR], SAMEPERIODLASTYEAR(DimDate[Date]))
+RETURN DIVIDE(CurrentAmount - PriorAmount, PriorAmount)
+
+April 2026 Successful Amount =
+CALCULATE([Successful Amount INR], REMOVEFILTERS(DimDate),
+    DimDate[Date] >= DATE(2026, 4, 1), DimDate[Date] < DATE(2026, 5, 1))
+
+Failure Review Flag =
+VAR MinimumAttempts = 100
+VAR FailureThreshold = 0.05
+RETURN IF([Attempt Count] < MinimumAttempts, "Insufficient volume",
+    IF([Failure Rate] > FailureThreshold, "Investigate", "Within threshold"))
+-- Illustrative thresholds only. Base rate visuals should not use a Status slicer
+-- to redefine the denominator unintentionally; configure interactions and labels.

@@ -1,0 +1,875 @@
+[
+  {
+    "id": "PBI-001",
+    "topic": "Query folding",
+    "chapter": "01-power-query.md",
+    "source_page": 2,
+    "source_section": "Power Query",
+    "source_question_number": 1,
+    "case": "PayBridge"
+  },
+  {
+    "id": "PBI-002",
+    "topic": "The M language",
+    "chapter": "01-power-query.md",
+    "source_page": 2,
+    "source_section": "Power Query",
+    "source_question_number": 2,
+    "case": "PayBridge"
+  },
+  {
+    "id": "PBI-003",
+    "topic": "Append versus merge",
+    "chapter": "01-power-query.md",
+    "source_page": 2,
+    "source_section": "Power Query",
+    "source_question_number": 3,
+    "case": "PayBridge"
+  },
+  {
+    "id": "PBI-004",
+    "topic": "Parameters",
+    "chapter": "01-power-query.md",
+    "source_page": 2,
+    "source_section": "Power Query",
+    "source_question_number": 4,
+    "case": "PayBridge"
+  },
+  {
+    "id": "PBI-005",
+    "topic": "How many tables can be combined?",
+    "chapter": "01-power-query.md",
+    "source_page": 2,
+    "source_section": "Power Query",
+    "source_question_number": 5,
+    "case": "PayBridge"
+  },
+  {
+    "id": "PBI-006",
+    "topic": "Power Query versus model storage",
+    "chapter": "01-power-query.md",
+    "source_page": 2,
+    "source_section": "Power Query",
+    "source_question_number": 6,
+    "case": "PayBridge"
+  },
+  {
+    "id": "PBI-007",
+    "topic": "Custom functions and parameters",
+    "chapter": "01-power-query.md",
+    "source_page": 2,
+    "source_section": "Power Query",
+    "source_question_number": 7,
+    "case": "PayBridge"
+  },
+  {
+    "id": "PBI-008",
+    "topic": "Connections and credentials",
+    "chapter": "01-power-query.md",
+    "source_page": 2,
+    "source_section": "Power Query",
+    "source_question_number": 8,
+    "case": "PayBridge"
+  },
+  {
+    "id": "PBI-009",
+    "topic": "Custom and conditional columns",
+    "chapter": "01-power-query.md",
+    "source_page": 2,
+    "source_section": "Power Query",
+    "source_question_number": 9,
+    "case": "PayBridge"
+  },
+  {
+    "id": "PBI-010",
+    "topic": "Types and data quality",
+    "chapter": "01-power-query.md",
+    "source_page": 2,
+    "source_section": "Power Query",
+    "source_question_number": 10,
+    "case": "PayBridge"
+  },
+  {
+    "id": "PBI-011",
+    "topic": "CALCULATETABLE versus FILTER",
+    "chapter": "01-power-query.md",
+    "source_page": 2,
+    "source_section": "Power Query",
+    "source_question_number": 11,
+    "case": "PayBridge"
+  },
+  {
+    "id": "PBI-012",
+    "topic": "Facts and dimensions",
+    "chapter": "02-data-modelling.md",
+    "source_page": 3,
+    "source_section": "Data Modelling",
+    "source_question_number": 1,
+    "case": "PayBridge"
+  },
+  {
+    "id": "PBI-013",
+    "topic": "Column or measure?",
+    "chapter": "02-data-modelling.md",
+    "source_page": 3,
+    "source_section": "Data Modelling",
+    "source_question_number": 2,
+    "case": "PayBridge"
+  },
+  {
+    "id": "PBI-014",
+    "topic": "Relationship rules",
+    "chapter": "02-data-modelling.md",
+    "source_page": 3,
+    "source_section": "Data Modelling",
+    "source_question_number": 3,
+    "case": "PayBridge"
+  },
+  {
+    "id": "PBI-015",
+    "topic": "What is a data model?",
+    "chapter": "02-data-modelling.md",
+    "source_page": 3,
+    "source_section": "Data Modelling",
+    "source_question_number": 4,
+    "case": "PayBridge"
+  },
+  {
+    "id": "PBI-016",
+    "topic": "Column versus measure performance",
+    "chapter": "02-data-modelling.md",
+    "source_page": 3,
+    "source_section": "Data Modelling",
+    "source_question_number": 5,
+    "case": "PayBridge"
+  },
+  {
+    "id": "PBI-017",
+    "topic": "Clustered and nonclustered indexes",
+    "chapter": "02-data-modelling.md",
+    "source_page": 3,
+    "source_section": "Data Modelling",
+    "source_question_number": 6,
+    "case": "PayBridge"
+  },
+  {
+    "id": "PBI-018",
+    "topic": "Scalable modelling",
+    "chapter": "02-data-modelling.md",
+    "source_page": 3,
+    "source_section": "Data Modelling",
+    "source_question_number": 7,
+    "case": "PayBridge"
+  },
+  {
+    "id": "PBI-019",
+    "topic": "Role-playing dimensions and bridges",
+    "chapter": "02-data-modelling.md",
+    "source_page": 3,
+    "source_section": "Data Modelling",
+    "source_question_number": 8,
+    "case": "PayBridge"
+  },
+  {
+    "id": "PBI-020",
+    "topic": "Slowly changing dimensions",
+    "chapter": "02-data-modelling.md",
+    "source_page": 3,
+    "source_section": "Data Modelling",
+    "source_question_number": 9,
+    "case": "PayBridge"
+  },
+  {
+    "id": "PBI-021",
+    "topic": "Calculated tables",
+    "chapter": "02-data-modelling.md",
+    "source_page": 3,
+    "source_section": "Data Modelling",
+    "source_question_number": 10,
+    "case": "PayBridge"
+  },
+  {
+    "id": "PBI-022",
+    "topic": "Relationships and hierarchies",
+    "chapter": "02-data-modelling.md",
+    "source_page": 3,
+    "source_section": "Data Modelling",
+    "source_question_number": 11,
+    "case": "PayBridge"
+  },
+  {
+    "id": "PBI-023",
+    "topic": "Large data volumes",
+    "chapter": "02-data-modelling.md",
+    "source_page": 3,
+    "source_section": "Data Modelling",
+    "source_question_number": 12,
+    "case": "PayBridge"
+  },
+  {
+    "id": "PBI-024",
+    "topic": "Report filters",
+    "chapter": "03-report-design.md",
+    "source_page": 4,
+    "source_section": "Report View",
+    "source_question_number": 1,
+    "case": "PayBridge"
+  },
+  {
+    "id": "PBI-025",
+    "topic": "Model, report and dashboard",
+    "chapter": "03-report-design.md",
+    "source_page": 4,
+    "source_section": "Report View",
+    "source_question_number": 2,
+    "case": "PayBridge"
+  },
+  {
+    "id": "PBI-026",
+    "topic": "Cross filtering",
+    "chapter": "03-report-design.md",
+    "source_page": 4,
+    "source_section": "Report View",
+    "source_question_number": 3,
+    "case": "PayBridge"
+  },
+  {
+    "id": "PBI-027",
+    "topic": "Report versus dashboard",
+    "chapter": "03-report-design.md",
+    "source_page": 4,
+    "source_section": "Report View",
+    "source_question_number": 4,
+    "case": "PayBridge"
+  },
+  {
+    "id": "PBI-028",
+    "topic": "Dynamic reports",
+    "chapter": "03-report-design.md",
+    "source_page": 4,
+    "source_section": "Report View",
+    "source_question_number": 5,
+    "case": "PayBridge"
+  },
+  {
+    "id": "PBI-029",
+    "topic": "Custom visuals",
+    "chapter": "03-report-design.md",
+    "source_page": 4,
+    "source_section": "Report View",
+    "source_question_number": 6,
+    "case": "PayBridge"
+  },
+  {
+    "id": "PBI-030",
+    "topic": "Filters used in a project",
+    "chapter": "03-report-design.md",
+    "source_page": 4,
+    "source_section": "Report View",
+    "source_question_number": 7,
+    "case": "PayBridge"
+  },
+  {
+    "id": "PBI-031",
+    "topic": "Bookmarks",
+    "chapter": "03-report-design.md",
+    "source_page": 4,
+    "source_section": "Report View",
+    "source_question_number": 8,
+    "case": "PayBridge"
+  },
+  {
+    "id": "PBI-032",
+    "topic": "Conditional formatting",
+    "chapter": "03-report-design.md",
+    "source_page": 4,
+    "source_section": "Report View",
+    "source_question_number": 9,
+    "case": "PayBridge"
+  },
+  {
+    "id": "PBI-033",
+    "topic": "Edit interactions: scope",
+    "chapter": "03-report-design.md",
+    "source_page": 4,
+    "source_section": "Report View",
+    "source_question_number": 10,
+    "case": "PayBridge"
+  },
+  {
+    "id": "PBI-034",
+    "topic": "Edit interactions: visual behaviour",
+    "chapter": "03-report-design.md",
+    "source_page": 4,
+    "source_section": "Report View",
+    "source_question_number": 11,
+    "case": "PayBridge"
+  },
+  {
+    "id": "PBI-035",
+    "topic": "Column versus measure in a report",
+    "chapter": "03-report-design.md",
+    "source_page": 4,
+    "source_section": "Report View",
+    "source_question_number": 12,
+    "case": "PayBridge"
+  },
+  {
+    "id": "PBI-036",
+    "topic": "Filter pane or slicer?",
+    "chapter": "03-report-design.md",
+    "source_page": 4,
+    "source_section": "Report View",
+    "source_question_number": 13,
+    "case": "PayBridge"
+  },
+  {
+    "id": "PBI-037",
+    "topic": "The Power BI service",
+    "chapter": "04-service-and-connectivity.md",
+    "source_page": 5,
+    "source_section": "Power BI Services",
+    "source_question_number": 1,
+    "case": "PayBridge"
+  },
+  {
+    "id": "PBI-038",
+    "topic": "Licensing choices",
+    "chapter": "04-service-and-connectivity.md",
+    "source_page": 5,
+    "source_section": "Power BI Services",
+    "source_question_number": 2,
+    "case": "PayBridge"
+  },
+  {
+    "id": "PBI-039",
+    "topic": "Your actual licence",
+    "chapter": "04-service-and-connectivity.md",
+    "source_page": 5,
+    "source_section": "Power BI Services",
+    "source_question_number": 3,
+    "case": "PayBridge"
+  },
+  {
+    "id": "PBI-040",
+    "topic": "Embedding",
+    "chapter": "04-service-and-connectivity.md",
+    "source_page": 5,
+    "source_section": "Power BI Services",
+    "source_question_number": 4,
+    "case": "PayBridge"
+  },
+  {
+    "id": "PBI-041",
+    "topic": "Row-level security",
+    "chapter": "04-service-and-connectivity.md",
+    "source_page": 5,
+    "source_section": "Power BI Services",
+    "source_question_number": 5,
+    "case": "PayBridge"
+  },
+  {
+    "id": "PBI-042",
+    "topic": "Gateways",
+    "chapter": "04-service-and-connectivity.md",
+    "source_page": 5,
+    "source_section": "Power BI Services",
+    "source_question_number": 6,
+    "case": "PayBridge"
+  },
+  {
+    "id": "PBI-043",
+    "topic": "Alerts",
+    "chapter": "04-service-and-connectivity.md",
+    "source_page": 5,
+    "source_section": "Power BI Services",
+    "source_question_number": 7,
+    "case": "PayBridge"
+  },
+  {
+    "id": "PBI-044",
+    "topic": "Microsoft Fabric",
+    "chapter": "04-service-and-connectivity.md",
+    "source_page": 5,
+    "source_section": "Power BI Services",
+    "source_question_number": 8,
+    "case": "PayBridge"
+  },
+  {
+    "id": "PBI-045",
+    "topic": "Source-to-visual validation",
+    "chapter": "04-service-and-connectivity.md",
+    "source_page": 5,
+    "source_section": "Power BI Services",
+    "source_question_number": 9,
+    "case": "PayBridge"
+  },
+  {
+    "id": "PBI-046",
+    "topic": "Data sources",
+    "chapter": "04-service-and-connectivity.md",
+    "source_page": 5,
+    "source_section": "Connectivity",
+    "source_question_number": 1,
+    "case": "PayBridge"
+  },
+  {
+    "id": "PBI-047",
+    "topic": "Import versus DirectQuery",
+    "chapter": "04-service-and-connectivity.md",
+    "source_page": 5,
+    "source_section": "Connectivity",
+    "source_question_number": 2,
+    "case": "PayBridge"
+  },
+  {
+    "id": "PBI-048",
+    "topic": "Connectivity and storage modes",
+    "chapter": "04-service-and-connectivity.md",
+    "source_page": 5,
+    "source_section": "Connectivity",
+    "source_question_number": 3,
+    "case": "PayBridge"
+  },
+  {
+    "id": "PBI-049",
+    "topic": "Sources you actually used",
+    "chapter": "04-service-and-connectivity.md",
+    "source_page": 5,
+    "source_section": "Connectivity",
+    "source_question_number": 4,
+    "case": "PayBridge"
+  },
+  {
+    "id": "PBI-050",
+    "topic": "Which database?",
+    "chapter": "04-service-and-connectivity.md",
+    "source_page": 5,
+    "source_section": "Connectivity",
+    "source_question_number": 5,
+    "case": "PayBridge"
+  },
+  {
+    "id": "PBI-051",
+    "topic": "What DAX does",
+    "chapter": "05-dax.md",
+    "source_page": 6,
+    "source_section": "DAX (Data Analysis Expressions)",
+    "source_question_number": 1,
+    "case": "PayBridge"
+  },
+  {
+    "id": "PBI-052",
+    "topic": "CALCULATE",
+    "chapter": "05-dax.md",
+    "source_page": 6,
+    "source_section": "DAX (Data Analysis Expressions)",
+    "source_question_number": 2,
+    "case": "PayBridge"
+  },
+  {
+    "id": "PBI-053",
+    "topic": "SUM versus SUMX",
+    "chapter": "05-dax.md",
+    "source_page": 6,
+    "source_section": "DAX (Data Analysis Expressions)",
+    "source_question_number": 3,
+    "case": "PayBridge"
+  },
+  {
+    "id": "PBI-054",
+    "topic": "DISTINCT versus VALUES",
+    "chapter": "05-dax.md",
+    "source_page": 6,
+    "source_section": "DAX (Data Analysis Expressions)",
+    "source_question_number": 4,
+    "case": "PayBridge"
+  },
+  {
+    "id": "PBI-055",
+    "topic": "Basic DAX toolkit",
+    "chapter": "05-dax.md",
+    "source_page": 6,
+    "source_section": "DAX (Data Analysis Expressions)",
+    "source_question_number": 5,
+    "case": "PayBridge"
+  },
+  {
+    "id": "PBI-056",
+    "topic": "FILTER",
+    "chapter": "05-dax.md",
+    "source_page": 6,
+    "source_section": "DAX (Data Analysis Expressions)",
+    "source_question_number": 6,
+    "case": "PayBridge"
+  },
+  {
+    "id": "PBI-057",
+    "topic": "Grouping with DAX",
+    "chapter": "05-dax.md",
+    "source_page": 6,
+    "source_section": "DAX (Data Analysis Expressions)",
+    "source_question_number": 7,
+    "case": "PayBridge"
+  },
+  {
+    "id": "PBI-058",
+    "topic": "Variables in DAX",
+    "chapter": "05-dax.md",
+    "source_page": 6,
+    "source_section": "DAX (Data Analysis Expressions)",
+    "source_question_number": 8,
+    "case": "PayBridge"
+  },
+  {
+    "id": "PBI-059",
+    "topic": "Bidirectional relationships",
+    "chapter": "05-dax.md",
+    "source_page": 6,
+    "source_section": "DAX (Data Analysis Expressions)",
+    "source_question_number": 9,
+    "case": "PayBridge"
+  },
+  {
+    "id": "PBI-060",
+    "topic": "Why CALCULATE matters",
+    "chapter": "05-dax.md",
+    "source_page": 6,
+    "source_section": "DAX (Data Analysis Expressions)",
+    "source_question_number": 10,
+    "case": "PayBridge"
+  },
+  {
+    "id": "PBI-061",
+    "topic": "CALCULATE and CALCULATETABLE",
+    "chapter": "05-dax.md",
+    "source_page": 6,
+    "source_section": "DAX (Data Analysis Expressions)",
+    "source_question_number": 11,
+    "case": "PayBridge"
+  },
+  {
+    "id": "PBI-062",
+    "topic": "ALL, ALLEXCEPT and denominator scope",
+    "chapter": "05-dax.md",
+    "source_page": 6,
+    "source_section": "DAX (Data Analysis Expressions)",
+    "source_question_number": 12,
+    "case": "PayBridge"
+  },
+  {
+    "id": "PBI-063",
+    "topic": "TOTALYTD",
+    "chapter": "05-dax.md",
+    "source_page": 6,
+    "source_section": "DAX (Data Analysis Expressions)",
+    "source_question_number": 13,
+    "case": "PayBridge"
+  },
+  {
+    "id": "PBI-064",
+    "topic": "Time-intelligence tools",
+    "chapter": "05-dax.md",
+    "source_page": 6,
+    "source_section": "DAX (Data Analysis Expressions)",
+    "source_question_number": 14,
+    "case": "PayBridge"
+  },
+  {
+    "id": "PBI-065",
+    "topic": "Previous-year YTD",
+    "chapter": "05-dax.md",
+    "source_page": 6,
+    "source_section": "DAX (Data Analysis Expressions)",
+    "source_question_number": 15,
+    "case": "PayBridge"
+  },
+  {
+    "id": "PBI-066",
+    "topic": "LOOKUPVALUE and relationships",
+    "chapter": "05-dax.md",
+    "source_page": 6,
+    "source_section": "DAX (Data Analysis Expressions)",
+    "source_question_number": 16,
+    "case": "PayBridge"
+  },
+  {
+    "id": "PBI-067",
+    "topic": "Other table functions",
+    "chapter": "05-dax.md",
+    "source_page": 6,
+    "source_section": "DAX (Data Analysis Expressions)",
+    "source_question_number": 17,
+    "case": "PayBridge"
+  },
+  {
+    "id": "PBI-068",
+    "topic": "SUMMARIZE versus SUMMARIZECOLUMNS",
+    "chapter": "05-dax.md",
+    "source_page": 6,
+    "source_section": "DAX (Data Analysis Expressions)",
+    "source_question_number": 18,
+    "case": "PayBridge"
+  },
+  {
+    "id": "PBI-069",
+    "topic": "Dynamic RLS identity functions",
+    "chapter": "05-dax.md",
+    "source_page": 7,
+    "source_section": "DAX (Data Analysis Expressions)",
+    "source_question_number": 19,
+    "case": "PayBridge"
+  },
+  {
+    "id": "PBI-070",
+    "topic": "Quick measures",
+    "chapter": "05-dax.md",
+    "source_page": 7,
+    "source_section": "DAX (Data Analysis Expressions)",
+    "source_question_number": 20,
+    "case": "PayBridge"
+  },
+  {
+    "id": "PBI-071",
+    "topic": "Complex business logic",
+    "chapter": "05-dax.md",
+    "source_page": 7,
+    "source_section": "DAX (Data Analysis Expressions)",
+    "source_question_number": 21,
+    "case": "PayBridge"
+  },
+  {
+    "id": "PBI-072",
+    "topic": "DAX performance",
+    "chapter": "05-dax.md",
+    "source_page": 7,
+    "source_section": "DAX (Data Analysis Expressions)",
+    "source_question_number": 22,
+    "case": "PayBridge"
+  },
+  {
+    "id": "PBI-073",
+    "topic": "Context transition",
+    "chapter": "05-dax.md",
+    "source_page": 7,
+    "source_section": "DAX (Data Analysis Expressions)",
+    "source_question_number": 23,
+    "case": "PayBridge"
+  },
+  {
+    "id": "PBI-074",
+    "topic": "Blank and error handling",
+    "chapter": "05-dax.md",
+    "source_page": 7,
+    "source_section": "DAX (Data Analysis Expressions)",
+    "source_question_number": 24,
+    "case": "PayBridge"
+  },
+  {
+    "id": "PBI-075",
+    "topic": "Evaluation context",
+    "chapter": "05-dax.md",
+    "source_page": 7,
+    "source_section": "DAX (Data Analysis Expressions)",
+    "source_question_number": 25,
+    "case": "PayBridge"
+  },
+  {
+    "id": "PBI-076",
+    "topic": "Time-intelligence example",
+    "chapter": "05-dax.md",
+    "source_page": 7,
+    "source_section": "DAX (Data Analysis Expressions)",
+    "source_question_number": 26,
+    "case": "PayBridge"
+  },
+  {
+    "id": "PBI-077",
+    "topic": "April amount",
+    "chapter": "06-scenarios-and-stakeholders.md",
+    "source_page": 7,
+    "source_section": "DAX (Data Analysis Expressions)",
+    "source_question_number": 1,
+    "case": "PayBridge"
+  },
+  {
+    "id": "PBI-078",
+    "topic": "DATEADD versus PARALLELPERIOD",
+    "chapter": "06-scenarios-and-stakeholders.md",
+    "source_page": 7,
+    "source_section": "DAX (Data Analysis Expressions)",
+    "source_question_number": 2,
+    "case": "PayBridge"
+  },
+  {
+    "id": "PBI-079",
+    "topic": "Only two visuals respond",
+    "chapter": "06-scenarios-and-stakeholders.md",
+    "source_page": 8,
+    "source_section": "Report View",
+    "source_question_number": 1,
+    "case": "PayBridge"
+  },
+  {
+    "id": "PBI-080",
+    "topic": "Top ten regions",
+    "chapter": "06-scenarios-and-stakeholders.md",
+    "source_page": 8,
+    "source_section": "Report View",
+    "source_question_number": 2,
+    "case": "PayBridge"
+  },
+  {
+    "id": "PBI-081",
+    "topic": "A rolling 24-month view",
+    "chapter": "06-scenarios-and-stakeholders.md",
+    "source_page": 8,
+    "source_section": "Report View",
+    "source_question_number": 3,
+    "case": "PayBridge"
+  },
+  {
+    "id": "PBI-082",
+    "topic": "Country percentage",
+    "chapter": "06-scenarios-and-stakeholders.md",
+    "source_page": 8,
+    "source_section": "Report View",
+    "source_question_number": 4,
+    "case": "PayBridge"
+  },
+  {
+    "id": "PBI-083",
+    "topic": "Two visuals in one tile",
+    "chapter": "06-scenarios-and-stakeholders.md",
+    "source_page": 8,
+    "source_section": "Report View",
+    "source_question_number": 5,
+    "case": "PayBridge"
+  },
+  {
+    "id": "PBI-084",
+    "topic": "Return to the home page",
+    "chapter": "06-scenarios-and-stakeholders.md",
+    "source_page": 8,
+    "source_section": "Report View",
+    "source_question_number": 6,
+    "case": "PayBridge"
+  },
+  {
+    "id": "PBI-085",
+    "topic": "Detailed information",
+    "chapter": "06-scenarios-and-stakeholders.md",
+    "source_page": 8,
+    "source_section": "Report View",
+    "source_question_number": 7,
+    "case": "PayBridge"
+  },
+  {
+    "id": "PBI-086",
+    "topic": "Visuals not loading",
+    "chapter": "06-scenarios-and-stakeholders.md",
+    "source_page": 8,
+    "source_section": "Report View",
+    "source_question_number": 8,
+    "case": "PayBridge"
+  },
+  {
+    "id": "PBI-087",
+    "topic": "Removing filters from a card",
+    "chapter": "06-scenarios-and-stakeholders.md",
+    "source_page": 8,
+    "source_section": "Report View",
+    "source_question_number": 9,
+    "case": "PayBridge"
+  },
+  {
+    "id": "PBI-088",
+    "topic": "Slow report performance",
+    "chapter": "06-scenarios-and-stakeholders.md",
+    "source_page": 9,
+    "source_section": "Report Performance & Optimization",
+    "source_question_number": 1,
+    "case": "PayBridge"
+  },
+  {
+    "id": "PBI-089",
+    "topic": "Syncing slicers",
+    "chapter": "06-scenarios-and-stakeholders.md",
+    "source_page": 9,
+    "source_section": "Report Performance & Optimization",
+    "source_question_number": 2,
+    "case": "PayBridge"
+  },
+  {
+    "id": "PBI-090",
+    "topic": "One expression for row arithmetic and total",
+    "chapter": "06-scenarios-and-stakeholders.md",
+    "source_page": 9,
+    "source_section": "Data Modelling",
+    "source_question_number": 1,
+    "case": "PayBridge"
+  },
+  {
+    "id": "PBI-091",
+    "topic": "Country share in the model",
+    "chapter": "06-scenarios-and-stakeholders.md",
+    "source_page": 9,
+    "source_section": "Data Modelling",
+    "source_question_number": 2,
+    "case": "PayBridge"
+  },
+  {
+    "id": "PBI-092",
+    "topic": "City share",
+    "chapter": "06-scenarios-and-stakeholders.md",
+    "source_page": 9,
+    "source_section": "Data Modelling",
+    "source_question_number": 3,
+    "case": "PayBridge"
+  },
+  {
+    "id": "PBI-093",
+    "topic": "Many-to-many requirements",
+    "chapter": "06-scenarios-and-stakeholders.md",
+    "source_page": 9,
+    "source_section": "Data Modelling",
+    "source_question_number": 4,
+    "case": "PayBridge"
+  },
+  {
+    "id": "PBI-094",
+    "topic": "Before scheduled refresh",
+    "chapter": "06-scenarios-and-stakeholders.md",
+    "source_page": 9,
+    "source_section": "Power BI Services",
+    "source_question_number": 1,
+    "case": "PayBridge"
+  },
+  {
+    "id": "PBI-095",
+    "topic": "Connectivity mode scenario",
+    "chapter": "06-scenarios-and-stakeholders.md",
+    "source_page": 10,
+    "source_section": "Connectivity",
+    "source_question_number": 1,
+    "case": "PayBridge"
+  },
+  {
+    "id": "PBI-096",
+    "topic": "Major requirement change",
+    "chapter": "06-scenarios-and-stakeholders.md",
+    "source_page": 10,
+    "source_section": "Stakeholder Management",
+    "source_question_number": 1,
+    "case": "PayBridge"
+  },
+  {
+    "id": "PBI-097",
+    "topic": "Discussing a requested storage mode",
+    "chapter": "06-scenarios-and-stakeholders.md",
+    "source_page": 10,
+    "source_section": "Stakeholder Management",
+    "source_question_number": 2,
+    "case": "PayBridge"
+  }
+]

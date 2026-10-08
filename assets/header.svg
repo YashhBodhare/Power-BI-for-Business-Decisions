@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="390" viewBox="0 0 1400 390" role="img" aria-labelledby="title desc">
+<title id="title">Power BI for Business Decisions</title><desc id="desc">Ninety-seven interview questions connected to one fictional payments case</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#111827"/><stop offset=".58" stop-color="#1e293b"/><stop offset="1" stop-color="#164e63"/></linearGradient><linearGradient id="amber"><stop stop-color="#fef3c7"/><stop offset="1" stop-color="#fbbf24"/></linearGradient></defs>
+<rect width="1400" height="390" rx="26" fill="url(#bg)"/>
+<circle cx="1335" cy="10" r="205" fill="#38bdf8" opacity=".05"/><circle cx="1190" cy="400" r="195" fill="#fbbf24" opacity=".05"/>
+<rect x="60" y="47" width="372" height="34" rx="17" fill="#fff" opacity=".08"/>
+<text x="79" y="70" font-family="Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="2" fill="#fde68a">THE ANALYST INTERVIEW LIBRARY</text>
+<text x="60" y="150" font-family="Arial,sans-serif" font-size="58" font-weight="700" fill="url(#amber)">Power BI for Business Decisions</text>
+<text x="64" y="198" font-family="Arial,sans-serif" font-size="25" fill="#e2e8f0">One payments case. Every answer connected.</text>
+<rect x="64" y="233" width="580" height="4" rx="2" fill="url(#amber)"/>
+<g font-family="Arial,sans-serif" font-size="18" font-weight="700">
+<rect x="64" y="269" width="270" height="48" rx="12" fill="#fbbf24"/><text x="83" y="300" fill="#111827">97 interview questions</text>
+<rect x="350" y="269" width="245" height="48" rx="12" fill="#334155" stroke="#64748b"/><text x="369" y="300" fill="#fff">One PayBridge case</text>
+<rect x="611" y="269" width="265" height="48" rx="12" fill="#0369a1"/><text x="630" y="300" fill="#fff">BA decision scenarios</text>
+</g>
+<text x="64" y="355" font-family="Arial,sans-serif" font-size="16" fill="#cbd5e1">Curated for Business Analysts &amp; Data Analysts • Yash Bodhare</text>
+<g transform="translate(1150 127)" opacity=".7"><rect x="0" y="70" width="26" height="78" rx="5" fill="#fbbf24"/><rect x="40" y="35" width="26" height="113" rx="5" fill="#fcd34d"/><rect x="80" y="0" width="26" height="148" rx="5" fill="#fde68a"/><path d="M-16 163h142" stroke="#94a3b8" stroke-width="3"/></g>
+</svg>

@@ -1,0 +1,316 @@
+{
+  "DimMerchant": [
+    {
+      "MerchantKey": 1,
+      "Merchant": "Merchant One",
+      "City": "Mumbai",
+      "RiskTier": "Standard",
+      "CountryKey": 1
+    },
+    {
+      "MerchantKey": 2,
+      "Merchant": "Merchant Two",
+      "City": "Thane",
+      "RiskTier": "Standard",
+      "CountryKey": 1
+    },
+    {
+      "MerchantKey": 3,
+      "Merchant": "Merchant Three",
+      "City": "Dubai",
+      "RiskTier": "Review",
+      "CountryKey": 2
+    },
+    {
+      "MerchantKey": 4,
+      "Merchant": "Merchant Four",
+      "City": "London",
+      "RiskTier": "Standard",
+      "CountryKey": 3
+    },
+    {
+      "MerchantKey": 5,
+      "Merchant": "Merchant Five",
+      "City": "Singapore",
+      "RiskTier": "Review",
+      "CountryKey": 4
+    },
+    {
+      "MerchantKey": 6,
+      "Merchant": "Merchant Six",
+      "City": "New York",
+      "RiskTier": "Standard",
+      "CountryKey": 5
+    }
+  ],
+  "DimCountry": [
+    {
+      "CountryKey": 1,
+      "Country": "India"
+    },
+    {
+      "CountryKey": 2,
+      "Country": "UAE"
+    },
+    {
+      "CountryKey": 3,
+      "Country": "UK"
+    },
+    {
+      "CountryKey": 4,
+      "Country": "Singapore"
+    },
+    {
+      "CountryKey": 5,
+      "Country": "US"
+    }
+  ],
+  "DimChannel": [
+    {
+      "ChannelKey": 1,
+      "Channel": "UPI"
+    },
+    {
+      "ChannelKey": 2,
+      "Channel": "Card"
+    }
+  ],
+  "FactAttempt": [
+    {
+      "AttemptID": "A01",
+      "PaymentID": "P01",
+      "MerchantKey": 1,
+      "CountryKey": 1,
+      "ChannelKey": 1,
+      "AttemptDate": "2026-01-05",
+      "Status": "Failed",
+      "AmountINR": 1000,
+      "FeeRate": "0.01"
+    },
+    {
+      "AttemptID": "A02",
+      "PaymentID": "P01",
+      "MerchantKey": 1,
+      "CountryKey": 1,
+      "ChannelKey": 1,
+      "AttemptDate": "2026-01-05",
+      "Status": "Succeeded",
+      "AmountINR": 1000,
+      "FeeRate": "0.01"
+    },
+    {
+      "AttemptID": "A03",
+      "PaymentID": "P02",
+      "MerchantKey": 2,
+      "CountryKey": 1,
+      "ChannelKey": 2,
+      "AttemptDate": "2026-01-10",
+      "Status": "Succeeded",
+      "AmountINR": 500,
+      "FeeRate": "0.01"
+    },
+    {
+      "AttemptID": "A04",
+      "PaymentID": "P03",
+      "MerchantKey": 3,
+      "CountryKey": 2,
+      "ChannelKey": 2,
+      "AttemptDate": "2026-01-15",
+      "Status": "Failed",
+      "AmountINR": 800,
+      "FeeRate": "0.01"
+    },
+    {
+      "AttemptID": "A05",
+      "PaymentID": "P04",
+      "MerchantKey": 4,
+      "CountryKey": 3,
+      "ChannelKey": 2,
+      "AttemptDate": "2026-01-20",
+      "Status": "Succeeded",
+      "AmountINR": 1500,
+      "FeeRate": "0.02"
+    },
+    {
+      "AttemptID": "A06",
+      "PaymentID": "P05",
+      "MerchantKey": 5,
+      "CountryKey": 4,
+      "ChannelKey": 1,
+      "AttemptDate": "2026-02-02",
+      "Status": "Failed",
+      "AmountINR": 700,
+      "FeeRate": "0.01"
+    },
+    {
+      "AttemptID": "A07",
+      "PaymentID": "P05",
+      "MerchantKey": 5,
+      "CountryKey": 4,
+      "ChannelKey": 1,
+      "AttemptDate": "2026-02-03",
+      "Status": "Succeeded",
+      "AmountINR": 700,
+      "FeeRate": "0.01"
+    },
+    {
+      "AttemptID": "A08",
+      "PaymentID": "P06",
+      "MerchantKey": 6,
+      "CountryKey": 5,
+      "ChannelKey": 2,
+      "AttemptDate": "2026-02-05",
+      "Status": "Succeeded",
+      "AmountINR": 300,
+      "FeeRate": "0.01"
+    },
+    {
+      "AttemptID": "A09",
+      "PaymentID": "P07",
+      "MerchantKey": 1,
+      "CountryKey": 1,
+      "ChannelKey": 1,
+      "AttemptDate": "2026-02-06",
+      "Status": "Failed",
+      "AmountINR": 400,
+      "FeeRate": "0.01"
+    },
+    {
+      "AttemptID": "A10",
+      "PaymentID": "P08",
+      "MerchantKey": 2,
+      "CountryKey": 1,
+      "ChannelKey": 2,
+      "AttemptDate": "2026-02-10",
+      "Status": "Succeeded",
+      "AmountINR": 100,
+      "FeeRate": "0.01"
+    },
+    {
+      "AttemptID": "A25-01",
+      "PaymentID": "P25-01",
+      "MerchantKey": 1,
+      "CountryKey": 1,
+      "ChannelKey": 1,
+      "AttemptDate": "2025-01-05",
+      "Status": "Succeeded",
+      "AmountINR": 600,
+      "FeeRate": "0.01"
+    },
+    {
+      "AttemptID": "A25-02",
+      "PaymentID": "P25-02",
+      "MerchantKey": 2,
+      "CountryKey": 1,
+      "ChannelKey": 2,
+      "AttemptDate": "2025-02-10",
+      "Status": "Succeeded",
+      "AmountINR": 300,
+      "FeeRate": "0.01"
+    }
+  ],
+  "FactSettlement": [
+    {
+      "SettlementID": "S-P01",
+      "PaymentID": "P01",
+      "MerchantKey": 1,
+      "CountryKey": 1,
+      "ChannelKey": 1,
+      "SuccessfulAttemptDate": "2026-01-05",
+      "DueDate": "2026-01-06",
+      "SettlementDate": "2026-01-07",
+      "AmountINR": 1000
+    },
+    {
+      "SettlementID": "S-P02",
+      "PaymentID": "P02",
+      "MerchantKey": 2,
+      "CountryKey": 1,
+      "ChannelKey": 2,
+      "SuccessfulAttemptDate": "2026-01-10",
+      "DueDate": "2026-01-11",
+      "SettlementDate": "2026-01-11",
+      "AmountINR": 500
+    },
+    {
+      "SettlementID": "S-P04",
+      "PaymentID": "P04",
+      "MerchantKey": 4,
+      "CountryKey": 3,
+      "ChannelKey": 2,
+      "SuccessfulAttemptDate": "2026-01-20",
+      "DueDate": "2026-01-21",
+      "SettlementDate": "2026-01-23",
+      "AmountINR": 1500
+    },
+    {
+      "SettlementID": "S-P05",
+      "PaymentID": "P05",
+      "MerchantKey": 5,
+      "CountryKey": 4,
+      "ChannelKey": 1,
+      "SuccessfulAttemptDate": "2026-02-03",
+      "DueDate": "2026-02-04",
+      "SettlementDate": "2026-02-04",
+      "AmountINR": 700
+    },
+    {
+      "SettlementID": "S-P06",
+      "PaymentID": "P06",
+      "MerchantKey": 6,
+      "CountryKey": 5,
+      "ChannelKey": 2,
+      "SuccessfulAttemptDate": "2026-02-05",
+      "DueDate": "2026-02-06",
+      "SettlementDate": "2026-02-08",
+      "AmountINR": 300
+    },
+    {
+      "SettlementID": "S-P08",
+      "PaymentID": "P08",
+      "MerchantKey": 2,
+      "CountryKey": 1,
+      "ChannelKey": 2,
+      "SuccessfulAttemptDate": "2026-02-10",
+      "DueDate": "2026-02-11",
+      "SettlementDate": "2026-02-10",
+      "AmountINR": 100
+    },
+    {
+      "SettlementID": "S-P25-01",
+      "PaymentID": "P25-01",
+      "MerchantKey": 1,
+      "CountryKey": 1,
+      "ChannelKey": 1,
+      "SuccessfulAttemptDate": "2025-01-05",
+      "DueDate": "2025-01-06",
+      "SettlementDate": "2025-01-06",
+      "AmountINR": 600
+    },
+    {
+      "SettlementID": "S-P25-02",
+      "PaymentID": "P25-02",
+      "MerchantKey": 2,
+      "CountryKey": 1,
+      "ChannelKey": 2,
+      "SuccessfulAttemptDate": "2025-02-10",
+      "DueDate": "2025-02-11",
+      "SettlementDate": "2025-02-11",
+      "AmountINR": 300
+    }
+  ],
+  "UserCountryAccess": [
+    {
+      "UPN": "india-ops@example.invalid",
+      "CountryKey": 1
+    },
+    {
+      "UPN": "regional-ops@example.invalid",
+      "CountryKey": 1
+    },
+    {
+      "UPN": "regional-ops@example.invalid",
+      "CountryKey": 4
+    }
+  ]
+}
